@@ -1,0 +1,14 @@
+div {
+    display: none;
+    opacity: 0;
+}
+
+div.open {
+    background-color: red;
+    display: block;
+    
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    opacity: 1;
+}
